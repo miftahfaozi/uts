@@ -1,0 +1,72 @@
+html, body {
+    font-family: 'Poppins';
+}
+
+body {
+    background: linear-gradient(285.56deg, #0D1721 17.86%, #003153 85.12%);
+    height: 100vh;
+}
+
+.bg-custom {
+    background: rgba(0, 33, 71, 1);
+}
+.login-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: url('../images/login-bg.png') no-repeat right center;
+    background-size: contain;
+}
+
+main {
+    margin-top: 4rem;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+.card-custom {
+    background: rgba(95, 213, 140, 1);
+}
+
+.bg-login {
+    background: rgba(13, 23, 33, 1);
+}
+
+.btn-login {
+    background: rgba(186, 67, 67, 1);
+    color: white;
+}
+
+.btn-login:hover {
+    background: rgba(186, 67, 67, .75);
+}
+
+.btn-custom {
+    background: rgba(0, 33, 71, 1);
+    color: white;
+}
+
+.btn-custom:hover {
+    background: rgba(0, 33, 71, .75);
+    color: white;
+}
+
+.text-custom {
+    color: rgba(0, 33, 71, 1);
+}
+
+.donation-item .card {
+    height: 100%;
+}
+
+.donation-item a {
+    text-decoration: none!important;
+}
+
+.amount {
+    text-align: center;
+    color: black;
+    margin: 0!important;
+}
